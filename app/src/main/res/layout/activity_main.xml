@@ -11,8 +11,12 @@
     <EditText
         android:id="@+id/st_regno"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="8dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="4dp"
+        android:padding="8dp"
         android:autofillHints="Student Registration Number"
         android:hint="Enter Student Registration Number"
         android:inputType="text" />
@@ -20,46 +24,80 @@
     <EditText
         android:id="@+id/st_name"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="8dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:padding="8dp"
         android:autofillHints="Student Name"
         android:hint="Enter Student Name"
         android:inputType="text" />
 
     <EditText
-        android:id="@+id/st_name"
+        android:id="@+id/st_age"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="8dp"
-        android:autofillHints="Student Name"
-        android:hint="Enter Student Name"
+        android:layout_height="56dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:padding="8dp"
+        android:autofillHints="Student Age"
+        android:hint="Enter Student Age"
         android:inputType="text" />
 
     <EditText
-        android:id="@+id/st_name"
+        android:id="@+id/st_gender"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="8dp"
-        android:autofillHints="Student Name"
-        android:hint="Enter Student Name"
+        android:layout_height="56dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:padding="8dp"
+        android:autofillHints="Student Gender"
+        android:hint="Enter Student Gender"
         android:inputType="text" />
 
     <EditText
-        android:id="@+id/st_name"
+        android:id="@+id/st_testno"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="8dp"
-        android:autofillHints="Student Name"
-        android:hint="Enter Student Name"
+        android:layout_height="56dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:padding="8dp"
+        android:autofillHints="Test Number"
+        android:hint="Enter Test Number"
         android:inputType="text" />
 
     <EditText
-        android:id="@+id/st_name"
+        android:id="@+id/st_testmarks"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="8dp"
-        android:autofillHints="Student Name"
-        android:hint="Enter Student Name"
+        android:layout_height="56dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="8dp"
+        android:padding="8dp"
+        android:autofillHints="Test Marks"
+        android:hint="Enter Test marks"
         android:inputType="text" />
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Submit"/>
+
+    <Button
+        android:id="@+id/btn_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Delete"/>
 
 </LinearLayout>
